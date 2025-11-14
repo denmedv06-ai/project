@@ -7,12 +7,12 @@ import QRScanHistoryModule from '../modules/QRScanHistoryModule/QRScanHistoryMod
 export const App: React.FC = () => {
     return (
         <>
-            <Header/>
+            <Header />
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
                 <QRScannerProvider>
                     <QRScannerView />
                 </QRScannerProvider>
-                <QRScanHistoryModule/>
+                <QRScanHistoryModule />
             </div>
         </>
 

@@ -22,7 +22,7 @@ export const ScanHistoryItem: React.FC<IScanHistoryItemProps> = ({
                 {new Date(createdAt).toLocaleString()}
             </p>
             {qrcodeImg && (
-                <img style={{width: "128px", height: "128px;"}}
+                <img 
                     src={qrcodeImg}
                     alt="QR Code"
                 />
